@@ -9,3 +9,8 @@ test("add 2 numbers", () => {
 test("handles negative numbers", () => {
   assert.equal(sum(-2, 3), 1);
 });
+
+test("handles 0", () => {
+  assert.equal(sum(4, 0), 4);
+});
+
